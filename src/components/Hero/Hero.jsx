@@ -5,8 +5,16 @@ import assets from "../../assets/assets";
 function Hero() {
   return (
     <>
-      <div className="main">prakhar</div>
-      <img srcSet={assets.photo} alt="" />
+      <div className="main">
+        <div className="one">
+          <h1>
+            I'M PRAKHAR SRIVASTAVA <br /> FULL STACK WEB DEVELOPER
+          </h1>
+        </div>
+        <div className="two">
+          <img srcSet={assets.photo} alt="prakhar" />
+        </div>
+      </div>
     </>
   );
 }

@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap-reverse;
+}
+.two img {
+  width: 20rem;
+  border-radius: 50%;
+  border: 0.5rem solid white;
+}
+@media only screen and (max-width: 500px) {
+}
