@@ -25,7 +25,9 @@ function Hero() {
               <img srcSet={assets.photo} alt="PRAKHAR KUMAR SRIVASTAVA" />
             </div>
             <div className="reach">
-              <a href="#">Download CV</a>
+              <a href="https://drive.google.com/file/d/1pcHsdDQk9KdRNR1mdvIneaVWx8vUwOF1/view?usp=sharing">
+                Download CV
+              </a>
               <a href="mailto:prakharkumar.srivastava.22cse@bmu.edu.in">
                 <i className="fa-regular fa-message"></i>
               </a>
@@ -66,16 +68,19 @@ function Hero() {
               </a>
             </div>
             <div className="dLast">
-              <a href="#">Projects</a>
-              <a href="#">Skills</a>
-              <a href="#">About</a>
-              <a href="#" className="contactLink">
+              <a href="#projects">Projects</a>
+              <a href="#projects">Skills</a>
+              <a href="#projects">About</a>
+              <a
+                href="mailto:prakharsrivastava586@gmail.com"
+                className="contactLink"
+              >
                 Contact <i className="fa-solid fa-circle-arrow-right"></i>
               </a>
             </div>
           </div>
         </div>
-        <div className="compTwo">
+        <div className="compTwo" id="projects">
           <div className="type">
             <h2>Projects</h2>
             <p>
