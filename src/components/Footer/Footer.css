@@ -1,32 +1,17 @@
 .footer {
+  padding: 2rem 5rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(90, 92, 106) 0%,
-    rgb(32, 45, 58) 81.3%
-  );
-  border: 0.1rem solid white;
-  border-radius: 0.9rem;
-  margin: 2rem 4rem;
-  padding: 2rem;
+  gap: 1rem;
 }
-.line {
-  margin: 1rem;
-  border: 0.1rem white solid;
-  border-radius: 0.1rem;
-  width: 95%;
-}
-.last {
+.footerdesc {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 95%;
+  color: gray;
 }
-.links i {
-  margin: 1rem;
-}
-@media only screen and (max-width: 500px) {
+.world {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }

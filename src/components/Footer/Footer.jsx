@@ -5,21 +5,12 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <div className="line"></div>
-        <div className="last">
-          <div className="copyright">
-            @2024 PRAKHAR SRIVASTAVA ALL RIGHTS RESERVED
-          </div>
-          <div className="links">
-            <a href="mailto:prakharsrivastava2857@gmail.com">
-              <i className="fa-solid fa-envelope"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/prakhar5/">
-              <i className="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/prakharr5">
-              <i className="fa-brands fa-github"></i>
-            </a>
+        <h4>Prakhar Srivastava</h4>
+        <div className="footerdesc">
+          <h5>© 2024 Prakhar Srivastava. All rights reserved.</h5>
+          <div className="world">
+            <i className="fa-solid fa-globe"></i>
+            <h5>EN</h5>
           </div>
         </div>
       </div>
