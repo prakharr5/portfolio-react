@@ -63,7 +63,7 @@ function Hero() {
               </a>
             </div>
             <div className="dMid">
-              <a href="#">
+              <a href="#projects">
                 <i className="fa-solid fa-angle-down"></i>
               </a>
             </div>
@@ -102,7 +102,7 @@ function Hero() {
                 </div>
                 <div className="about">
                   <h3>
-                    CafeSerenityBites{" "}
+                    CafeSerenityBites
                     <span className="spanG">/ Academic Project</span>
                   </h3>
                   <p>
@@ -140,16 +140,16 @@ function Hero() {
                   <p className="tag">FULL-STACK</p>
                   <video autoPlay muted loop id="backgroundVideoTwo">
                     <source
-                      src={require("../../assets/images/prjThree.mp4")}
+                      src={require("../../assets/images/prjsub.mp4")}
                       type="video/mp4"
                     />
                   </video>
                 </div>
                 <div className="about">
                   <h3>
-                    HACKBMU <span className="spanG">/ College Event</span>
+                    SUBSAFT <span className="spanG">/ Freelancing</span>
                   </h3>
-                  <p>Lead the tech team in HACKBMU Event.</p>
+                  <p>Designed & developed website for a startup.</p>
                 </div>
               </div>
               <div className="box">
@@ -164,7 +164,8 @@ function Hero() {
                 </div>
                 <div className="about">
                   <h3>
-                    ACMBMU <span className="spanG">/ Student Chapter</span>
+                    ACMBMU
+                    <span className="spanG">/ Official Student Chapter</span>
                   </h3>
                   <p>
                     Had my major contribution in the developement of the
@@ -200,19 +201,19 @@ function Hero() {
                 <tr>
                   <td className="namePrj">E-Commerce Platform</td>
                   <td>A java console based shopping management System.</td>
-                  <td>Group Project</td>
+                  <td>Academic Project</td>
                   <td>2023</td>
                 </tr>
                 <tr>
                   <td className="namePrj">Statflow</td>
                   <td>A web based platform for data analysis.</td>
-                  <td>tyep</td>
+                  <td>Project</td>
                   <td>2023</td>
                 </tr>
                 <tr>
                   <td className="namePrj">Spotify Clone</td>
                   <td>A Spotify web clone project.</td>
-                  <td>type</td>
+                  <td>Project</td>
                   <td>2023</td>
                 </tr>
                 <tr>
@@ -221,7 +222,7 @@ function Hero() {
                     An android application for booking and showcasing college
                     fests, events, hackathons, concerts and sports.
                   </td>
-                  <td>tyep</td>
+                  <td>Project</td>
                   <td>2024</td>
                 </tr>
                 <tr>
@@ -238,7 +239,7 @@ function Hero() {
                     A machine learning project for predicting social media
                     followers.
                   </td>
-                  <td>tyep</td>
+                  <td>Project</td>
                   <td>2024</td>
                 </tr>
                 <tr>
@@ -247,7 +248,7 @@ function Hero() {
                     A smoke detector necklace for people who are addicted to
                     smoking.
                   </td>
-                  <td>oject</td>
+                  <td>Project</td>
                   <td>2024</td>
                 </tr>
               </table>
@@ -258,57 +259,54 @@ function Hero() {
           <div className="type">
             <h2>Experiences</h2>
             <p>
-              I have a proven track record of my own product and over 30
-              projects that have helped clients grow
+              I have experience in various filled which have helped build by
+              tech & soft skills.
             </p>
           </div>
           <div className="desc">
             <div className="container">
               <div className="boxTwo">
                 <div className="detail">
-                  <h3>LEAD DEVELOPER</h3>
+                  <h3>LEAD&nbsp;DEVELOPER</h3>
                   <p>
-                    Lorem ipsum dolores vero nobis dicta ipsam? Earum suscipit
-                    mollitia provident veniam nihil minima, molestias vel, cum
-                    in nesciunt asperiores.
+                    Developed official website of B.P. Alloys Limited from
+                    scratch. An internship which helped me grow.
                   </p>
                 </div>
                 <p>30&nbsp;days</p>
               </div>
               <div className="boxTwo">
                 <div className="detail">
-                  <h3>LEAD DEVELOPER</h3>
+                  <h3>WEB&nbsp;MASTER</h3>
                   <p>
-                    Lorem ipsum dolores vero nobis dicta ipsam? Earum suscipit
-                    mollitia provident veniam nihil minima, molestias vel, cum
-                    in nesciunt asperiores.
+                    I am serving as the web master of ACMBMU Student Chapter,
+                    which is officially licensed by acm. During my span I have
+                    developed websites for ACMBMU.
                   </p>
                 </div>
-                <p>30&nbsp;days</p>
+                <p>2&nbsp;years</p>
               </div>
             </div>
             <div className="container">
               <div className="boxTwo">
                 <div className="detail">
-                  <h3>LEAD DEVELOPER</h3>
+                  <h3>TECHNICAL&nbsp;LEAD</h3>
                   <p>
-                    Lorem ipsum dolores vero nobis dicta ipsam? Earum suscipit
-                    mollitia provident veniam nihil minima, molestias vel, cum
-                    in nesciunt asperiores.
+                    Lead the technical team of HACKBMU, a hackathon organised by
+                    ACMBMU.
                   </p>
                 </div>
-                <p>30&nbsp;days</p>
+                <p>2&nbsp;Months</p>
               </div>
               <div className="boxTwo">
                 <div className="detail">
-                  <h3>LEAD DEVELOPER</h3>
+                  <h3>LEAD&nbsp;DEVELOPER</h3>
                   <p>
-                    Lorem ipsum dolores vero nobis dicta ipsam? Earum suscipit
-                    mollitia provident veniam nihil minima, molestias vel, cum
-                    in nesciunt asperiores.
+                    Developed website for Subsaft, a startup in middle east. A
+                    freelance work that helped me gain new insights.
                   </p>
                 </div>
-                <p>30&nbsp;days</p>
+                <p>10&nbsp;days</p>
               </div>
             </div>
           </div>
@@ -323,7 +321,7 @@ function Hero() {
                 <p>
                   feel free to contact at{" "}
                   <a href="mailto:prakharsrivastava586@gmail.com">
-                    prakharsrivastava586@gmail.com
+                    prakharsrivastava2857@gmail.com
                   </a>
                 </p>
               </div>
