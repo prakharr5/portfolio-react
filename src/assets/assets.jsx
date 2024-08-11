@@ -1,4 +1,4 @@
-import photo from "../assets/images/photo.JPG";
+import photo from "../assets/images/photo.png";
 
 const assets = {
   photo,
