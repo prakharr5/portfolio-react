@@ -9,7 +9,7 @@ function Hero() {
         <div className="compOne">
           <video autoPlay muted loop id="backgroundVideo">
             <source
-              src={require("../../assets/images/herobg.mp4")}
+              src={require("../../assets/images/herobg.webm")}
               type="video/mp4"
             />
           </video>
@@ -95,7 +95,7 @@ function Hero() {
                   <p className="tag">FULL-STACK</p>
                   <video autoPlay muted loop id="backgroundVideoTwo">
                     <source
-                      src={require("../../assets/images/prjOne.mp4")}
+                      src={require("../../assets/images/prjOne.webm")}
                       type="video/mp4"
                     />
                   </video>
@@ -117,7 +117,7 @@ function Hero() {
                   <p className="tag">FULL-STACK</p>
                   <video autoPlay muted loop id="backgroundVideoTwo">
                     <source
-                      src={require("../../assets/images/prjTwo.mp4")}
+                      src={require("../../assets/images/prjTwo.webm")}
                       type="video/mp4"
                     />
                   </video>
@@ -140,7 +140,7 @@ function Hero() {
                   <p className="tag">FULL-STACK</p>
                   <video autoPlay muted loop id="backgroundVideoTwo">
                     <source
-                      src={require("../../assets/images/prjsub.mp4")}
+                      src={require("../../assets/images/prjsub.webm")}
                       type="video/mp4"
                     />
                   </video>
@@ -157,7 +157,7 @@ function Hero() {
                   <p className="tag">FULL-STACK</p>
                   <video autoPlay muted loop id="backgroundVideoTwo">
                     <source
-                      src={require("../../assets/images/prjFour.mp4")}
+                      src={require("../../assets/images/prjFour.webm")}
                       type="video/mp4"
                     />
                   </video>
