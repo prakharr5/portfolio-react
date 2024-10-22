@@ -25,7 +25,10 @@ function Hero() {
               <img srcSet={assets.photo} alt="PRAKHAR KUMAR SRIVASTAVA" />
             </div>
             <div className="reach">
-              <a href="https://drive.google.com/file/d/1pcHsdDQk9KdRNR1mdvIneaVWx8vUwOF1/view?usp=sharing">
+              <a
+                href="https://drive.google.com/file/d/1pcHsdDQk9KdRNR1mdvIneaVWx8vUwOF1/view?usp=sharing"
+                className="downcv"
+              >
                 Download CV
               </a>
               <a href="mailto:prakharkumar.srivastava.22cse@bmu.edu.in">
@@ -178,14 +181,17 @@ function Hero() {
               <h3>Other Projects</h3>
               <table>
                 <tr>
-                  <td className="namePrj">Indoor Navigation System</td>
-                  <td>
+                  <td className="namePrj">
+                    Indoor Navigation System
+                    <i className="fa-solid fa-caret-down"></i>
+                  </td>
+                  <td className="detailsHidden">
                     An app based navigation tailored for our college campus to
                     assist students in locating specific faculty member’s office
                     within a complex consisting of 89 cabins on a single floor.
                   </td>
-                  <td>Group Project</td>
-                  <td>2022</td>
+                  <td className="detailsHidden">Group Project</td>
+                  <td className="detailsHidden">2022</td>
                 </tr>
                 <tr>
                   <td className="namePrj">SoulSpace</td>
@@ -238,15 +244,6 @@ function Hero() {
                   <td>
                     A machine learning project for predicting social media
                     followers.
-                  </td>
-                  <td>Project</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Smoke Detector</td>
-                  <td>
-                    A smoke detector necklace for people who are addicted to
-                    smoking.
                   </td>
                   <td>Project</td>
                   <td>2024</td>
@@ -319,7 +316,7 @@ function Hero() {
             <div className="container">
               <div className="boxthree">
                 <p>
-                  feel free to contact at{" "}
+                  feel&nbsp;free&nbsp;to&nbsp;contact&nbsp;at{" "}
                   <a href="mailto:prakharsrivastava586@gmail.com">
                     prakharsrivastava2857@gmail.com
                   </a>

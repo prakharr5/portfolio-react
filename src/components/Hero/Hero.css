@@ -113,6 +113,7 @@
 .dOne a i {
   color: darkgrey;
   padding: 0.5rem;
+  transition: all 0.4s linear;
 }
 .dOne a i:hover {
   background-color: lightgray;
@@ -131,6 +132,7 @@
 }
 .dLast a {
   padding: 0.3rem 1rem;
+  transition: all 0.4s linear;
 }
 .dLast a:hover {
   background-color: lightgray;
@@ -145,6 +147,7 @@
   align-items: center;
   gap: 0.5rem;
   margin-right: 0.5rem;
+  transition: all 0.4s linear;
 }
 .contactLink:hover {
   color: black;
@@ -236,6 +239,10 @@ tr:last-child td {
 .namePrj {
   color: black;
 }
+.namePrj i {
+  margin-left: 0.4rem;
+  display: none;
+}
 .exp {
   background-color: rgb(250, 247, 247);
   border-radius: 1rem;
@@ -253,6 +260,7 @@ tr:last-child td {
   padding: 1rem 2rem;
   gap: 2rem;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s linear;
 }
 .boxTwo:hover {
   background-color: rgb(241, 241, 241);
@@ -338,6 +346,9 @@ tr:last-child td {
   }
 }
 @media (max-width: 587px) {
+  .profile img {
+    width: 3rem;
+  }
   .mid h1 {
     font-size: 1.5rem;
   }
@@ -358,13 +369,38 @@ tr:last-child td {
   .dLast {
     display: none;
   }
+  .reach {
+    display: none;
+  }
 }
 @media (max-width: 420px) {
   .main {
     padding: 0;
   }
-  .reach i {
-    display: none;
+  .box {
+    width: 100%;
+  }
+  .boxTwo {
+    width: 18rem;
+  }
+  .vid {
+    height: 15rem;
+  }
+  .contact {
+    gap: 0.5rem;
+    padding: 0 1rem;
+    margin: 0;
+  }
+  .boxthree p {
+    text-align: left;
+  }
+}
+@media (max-width: 360px) {
+  .vid {
+    height: 13rem;
+  }
+  .boxTwo {
+    width: 16rem;
   }
 }
 @media (max-width: 700px) {
@@ -377,8 +413,7 @@ tr:last-child td {
 }
 @media (max-width: 468px) {
 }
-@media (max-width: 360px) {
-}
+
 @media (max-width: 320px) {
 }
 @media (max-width: 291px) {
