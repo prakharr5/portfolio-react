@@ -117,7 +117,13 @@ function Hero() {
               </div>
               <div className="box">
                 <div className="vid">
-                  <p className="tag">FULL-STACK</p>
+                  <a
+                    href="https://bpalloys.in/"
+                    target="_blank"
+                    className="tag"
+                  >
+                    VISIT
+                  </a>
                   <video autoPlay muted loop id="backgroundVideoTwo">
                     <source
                       src={require("../../assets/images/prjTwo.mp4")}
@@ -140,7 +146,9 @@ function Hero() {
             <div className="container">
               <div className="box">
                 <div className="vid">
-                  <p className="tag">FULL-STACK</p>
+                  <a href="https://subsaft.com/" className="tag">
+                    VISIT
+                  </a>
                   <video autoPlay muted loop id="backgroundVideoTwo">
                     <source
                       src={require("../../assets/images/prjsub.mp4")}
@@ -157,7 +165,9 @@ function Hero() {
               </div>
               <div className="box">
                 <div className="vid">
-                  <p className="tag">FULL-STACK</p>
+                  <a href="https://acmbmu.com/" className="tag">
+                    VISIT
+                  </a>
                   <video autoPlay muted loop id="backgroundVideoTwo">
                     <source
                       src={require("../../assets/images/prjFour.mp4")}
