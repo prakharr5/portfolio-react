@@ -17,7 +17,7 @@ function Hero() {
             <div className="name">
               <p>Prakhar Srivastava</p>
               <div className="nameP">
-                <p>Web designer and developer</p>
+                <p>AI & Data Science Enthusiast | Tech Innovator</p>
                 <i className="fa-solid fa-user-secret userSecret"></i>
               </div>
             </div>
@@ -26,7 +26,7 @@ function Hero() {
             </div>
             <div className="reach">
               <a
-                href="https://drive.google.com/file/d/1pcHsdDQk9KdRNR1mdvIneaVWx8vUwOF1/view?usp=sharing"
+                href="https://drive.google.com/file/d/1R4yZkSDFqMOap2fdkq9GrxBSeH6Byt6e/view?usp=sharing"
                 className="downcv"
               >
                 Download CV
@@ -39,19 +39,17 @@ function Hero() {
           <div className="mid">
             <h4>prakhar</h4>
             <h1>
-              Innovative Design & <br />
-              Web Development Expertise
+              Innovative Tech Solutions <br /> & Full-Stack Development
             </h1>
             <h3>
-              Crafting intuitive websites and apps, I enhance user experience,
-              <br /> drive key metrics, and enable businesses to excel
-              digitally.
+              Building intelligent web apps and AI-powered solutions, <br />I
+              merge design, data, and technology to drive impact and innovation.
             </h3>
           </div>
           <div className="work">
-            <p>Corporate Web Development</p>
-            <p>App Development</p>
-            <p>Complex System Design</p>
+            <p>AI-Driven Web & App Development</p>
+            <p>Scalable System Architecture & Complex Solutions</p>
+            <p>Business-Centric Tech Innovation</p>
           </div>
           <div className="lastDown">
             <div className="dOne">
@@ -187,18 +185,19 @@ function Hero() {
                 </div>
               </div>
             </div>
+
             <div className="others">
               <h3>Other Projects</h3>
               <table>
                 <tr>
                   <td className="namePrj">
-                    Indoor Navigation System
+                    Indoor Navigation System{" "}
                     <i className="fa-solid fa-caret-down"></i>
                   </td>
                   <td className="detailsHidden">
-                    An app based navigation tailored for our college campus to
-                    assist students in locating specific faculty member’s office
-                    within a complex consisting of 89 cabins on a single floor.
+                    An app-based navigation system tailored for our college
+                    campus to assist students in locating specific faculty
+                    offices within a complex of 89 cabins on a single floor.
                   </td>
                   <td className="detailsHidden">Group Project</td>
                   <td className="detailsHidden">2022</td>
@@ -206,23 +205,22 @@ function Hero() {
                 <tr>
                   <td className="namePrj">SoulSpace</td>
                   <td>
-                    A web-based platform that provides a secure and anonymous
+                    A web-based platform providing a secure and anonymous
                     environment for individuals dealing with mental health
-                    issues to connect with support groups or engage in
-                    confidential interactions with licensed therapists.
+                    issues to connect with support groups or therapists.
                   </td>
                   <td>Selected in Smart India Hackathon</td>
                   <td>2023</td>
                 </tr>
                 <tr>
                   <td className="namePrj">E-Commerce Platform</td>
-                  <td>A java console based shopping management System.</td>
+                  <td>A Java console-based shopping management system.</td>
                   <td>Academic Project</td>
                   <td>2023</td>
                 </tr>
                 <tr>
                   <td className="namePrj">Statflow</td>
-                  <td>A web based platform for data analysis.</td>
+                  <td>A web-based platform for data analysis.</td>
                   <td>Project</td>
                   <td>2023</td>
                 </tr>
@@ -235,8 +233,8 @@ function Hero() {
                 <tr>
                   <td className="namePrj">Unigigs</td>
                   <td>
-                    An android application for booking and showcasing college
-                    fests, events, hackathons, concerts and sports.
+                    An Android application for booking and showcasing college
+                    fests, events, hackathons, concerts, and sports.
                   </td>
                   <td>Project</td>
                   <td>2024</td>
@@ -244,7 +242,8 @@ function Hero() {
                 <tr>
                   <td className="namePrj">Human Activity Recognition</td>
                   <td>
-                    A machine learning project for recognizing human activities.
+                    A machine learning project that recognizes human activities
+                    like sleeping, laughing, or crying from uploaded images.
                   </td>
                   <td>Group Project</td>
                   <td>2024</td>
@@ -256,6 +255,49 @@ function Hero() {
                     followers.
                   </td>
                   <td>Project</td>
+                  <td>2024</td>
+                </tr>
+                <tr>
+                  <td className="namePrj">Smoke Detector</td>
+                  <td>
+                    An IoT project that helps smokers quit by tracking the
+                    number of puffs taken via a wearable device.
+                  </td>
+                  <td>IoT Project</td>
+                  <td>2024</td>
+                </tr>
+                <tr>
+                  <td className="namePrj">TRACKAI</td>
+                  <td>Trained AI to play the game Trackmania.</td>
+                  <td>AI Project</td>
+                  <td>2024</td>
+                </tr>
+                <tr>
+                  <td className="namePrj">Home Surveillance System</td>
+                  <td>
+                    An IoT-based home surveillance system that detects activity
+                    in a camera feed and updates users via text messages with
+                    images of detected activity.
+                  </td>
+                  <td>IoT Project</td>
+                  <td>2024</td>
+                </tr>
+                <tr>
+                  <td className="namePrj">Weed Detection in Paddy Crops</td>
+                  <td>
+                    A digital image processing project using YOLO models to
+                    detect weeds in paddy crops.
+                  </td>
+                  <td>AI Project</td>
+                  <td>2024</td>
+                </tr>
+                <tr>
+                  <td className="namePrj">Fraud Detection in Ethereum</td>
+                  <td>
+                    A fraud detection system for Ethereum transactions using
+                    machine learning.
+                  </td>
+                  <td>ML Project</td>
                   <td>2024</td>
                 </tr>
               </table>
