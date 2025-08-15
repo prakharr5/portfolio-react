@@ -17,7 +17,7 @@ function Hero() {
             <div className="name">
               <p>Prakhar Srivastava</p>
               <div className="nameP">
-                <p>AI & Data Science Enthusiast | Tech Innovator</p>
+                <p>AI & Data Science Visionary | Strategic Problem Solver</p>
                 <i className="fa-solid fa-user-secret userSecret"></i>
               </div>
             </div>
@@ -26,7 +26,7 @@ function Hero() {
             </div>
             <div className="reach">
               <a
-                href="https://drive.google.com/file/d/1R4yZkSDFqMOap2fdkq9GrxBSeH6Byt6e/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_gB08vIdK8UiP65tSujblKMsSce53UMt/view?usp=sharing"
                 className="downcv"
               >
                 Download CV
@@ -39,11 +39,12 @@ function Hero() {
           <div className="mid">
             <h4>prakhar</h4>
             <h1>
-              Innovative Tech Solutions <br /> & Full-Stack Development
+              Turning Complex Challenges into <br />
+              Scalable, Intelligent Solutions
             </h1>
             <h3>
-              Building intelligent web apps and AI-powered solutions, <br />I
-              merge design, data, and technology to drive impact and innovation.
+              I craft AI-powered systems that merge design, data <br /> and
+              strategy to create lasting impact.
             </h3>
           </div>
           <div className="work">
@@ -70,8 +71,8 @@ function Hero() {
             </div>
             <div className="dLast">
               <a href="#projects">Projects</a>
-              <a href="#projects">Skills</a>
-              <a href="#projects">About</a>
+              <a href="#skillsp">Skills</a>
+              <a href="#aboutp">About</a>
               <a
                 href="mailto:prakharsrivastava586@gmail.com"
                 className="contactLink"
@@ -189,177 +190,403 @@ function Hero() {
             <div className="others">
               <h3>Other Projects</h3>
               <table>
-                <tr>
-                  <td className="namePrj">
-                    Indoor Navigation System{" "}
-                    <i className="fa-solid fa-caret-down"></i>
-                  </td>
-                  <td className="detailsHidden">
-                    An app-based navigation system tailored for our college
-                    campus to assist students in locating specific faculty
-                    offices within a complex of 89 cabins on a single floor.
-                  </td>
-                  <td className="detailsHidden">Group Project</td>
-                  <td className="detailsHidden">2022</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">SoulSpace</td>
-                  <td>
-                    A web-based platform providing a secure and anonymous
-                    environment for individuals dealing with mental health
-                    issues to connect with support groups or therapists.
-                  </td>
-                  <td>Selected in Smart India Hackathon</td>
-                  <td>2023</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">E-Commerce Platform</td>
-                  <td>A Java console-based shopping management system.</td>
-                  <td>Academic Project</td>
-                  <td>2023</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Statflow</td>
-                  <td>A web-based platform for data analysis.</td>
-                  <td>Project</td>
-                  <td>2023</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Spotify Clone</td>
-                  <td>A Spotify web clone project.</td>
-                  <td>Project</td>
-                  <td>2023</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Unigigs</td>
-                  <td>
-                    An Android application for booking and showcasing college
-                    fests, events, hackathons, concerts, and sports.
-                  </td>
-                  <td>Project</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Human Activity Recognition</td>
-                  <td>
-                    A machine learning project that recognizes human activities
-                    like sleeping, laughing, or crying from uploaded images.
-                  </td>
-                  <td>Group Project</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Social Media Follower Prediction</td>
-                  <td>
-                    A machine learning project for predicting social media
-                    followers.
-                  </td>
-                  <td>Project</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Smoke Detector</td>
-                  <td>
-                    An IoT project that helps smokers quit by tracking the
-                    number of puffs taken via a wearable device.
-                  </td>
-                  <td>IoT Project</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">TRACKAI</td>
-                  <td>Trained AI to play the game Trackmania.</td>
-                  <td>AI Project</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Home Surveillance System</td>
-                  <td>
-                    An IoT-based home surveillance system that detects activity
-                    in a camera feed and updates users via text messages with
-                    images of detected activity.
-                  </td>
-                  <td>IoT Project</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Weed Detection in Paddy Crops</td>
-                  <td>
-                    A digital image processing project using YOLO models to
-                    detect weeds in paddy crops.
-                  </td>
-                  <td>AI Project</td>
-                  <td>2024</td>
-                </tr>
-                <tr>
-                  <td className="namePrj">Fraud Detection in Ethereum</td>
-                  <td>
-                    A fraud detection system for Ethereum transactions using
-                    machine learning.
-                  </td>
-                  <td>ML Project</td>
-                  <td>2024</td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td className="namePrj">
+                      Indoor Navigation System{" "}
+                      <i className="fa-solid fa-caret-down"></i>
+                    </td>
+                    <td className="detailsHidden">
+                      An app developed to solve navigation challenges within the
+                      college campus containing over 90 faculty offices. The app
+                      displays office numbers and directions upon searching a
+                      faculty member’s name.
+                    </td>
+                    <td className="detailsHidden">Python, GUI Development</td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">
+                      Smoke Detector Necklace (IoT Project)
+                    </td>
+                    <td className="detailsHidden">
+                      A wearable prototype that counts the number of puffs taken
+                      by a smoker. Aims to aid in quitting smoking by providing
+                      personalized plans based on smoking patterns.
+                    </td>
+                    <td className="detailsHidden">
+                      IoT, Sensors, Embedded Systems, Prototyping
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">
+                      StatFlow – Web Platform for Data Analysis
+                    </td>
+                    <td className="detailsHidden">
+                      A web app that enables users to upload datasets and
+                      generate various visualizations like histograms, box
+                      plots, scatter plots, etc.
+                    </td>
+                    <td className="detailsHidden">
+                      Python, Flask, Matplotlib, Seaborn, HTML, CSS
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">IoT Home Surveillance System</td>
+                    <td className="detailsHidden">
+                      Integrated with CCTV, this system detects motion in images
+                      and sends captured pictures to the user, enhancing home
+                      security.
+                    </td>
+                    <td className="detailsHidden">
+                      IoT, Motion Detection, Image Processing
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">IoT Traffic Signal Optimization</td>
+                    <td className="detailsHidden">
+                      Simulated on Wokwi, the system gives red lights to empty
+                      lanes and prioritizes emergency vehicles like ambulances
+                      and fire brigades.
+                    </td>
+                    <td className="detailsHidden">
+                      IoT, Embedded Systems, Simulation, Sensor-based Logic
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">Web Development Projects</td>
+                    <td className="detailsHidden">
+                      Developed multiple websites including: Cloud Kitchen
+                      Website, Spotify Clone, and an E-Commerce site.
+                    </td>
+                    <td className="detailsHidden">
+                      HTML, CSS, JavaScript, React.js, Node.js
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">
+                      UniGigs – Android Event Booking App
+                    </td>
+                    <td className="detailsHidden">
+                      A mobile app for discovering and booking college fests,
+                      hackathons, concerts, sports events, etc., similar to
+                      BookMyShow.
+                    </td>
+                    <td className="detailsHidden">
+                      Android Development, Java/Kotlin, Firebase
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">
+                      Social Media Follower Prediction
+                    </td>
+                    <td className="detailsHidden">
+                      A machine learning model designed to predict social media
+                      follower counts based on engagement metrics.
+                    </td>
+                    <td className="detailsHidden">
+                      Python, Scikit-learn, Regression Models
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">Human Activity Recognition</td>
+                    <td className="detailsHidden">
+                      ML model that identifies human activities from uploaded
+                      images such as sleeping, laughing, crying, etc.
+                    </td>
+                    <td className="detailsHidden">
+                      Python, Computer Vision, CNN, Image Classification
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">Weed Detection in Paddy Crops</td>
+                    <td className="detailsHidden">
+                      Implemented YOLOv5, YOLOv8, and UNet models to segment
+                      weeds in paddy fields for smart agriculture. Enhanced
+                      detection precision for real-time usage.
+                    </td>
+                    <td className="detailsHidden">
+                      Python, PyTorch, TensorFlow, YOLOv5, YOLOv8, UNet, OpenCV
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">Ethereum Fraud Detection</td>
+                    <td className="detailsHidden">
+                      Developed models using Random Forest, Logistic Regression,
+                      and XGBoost to identify fraudulent Ethereum transactions.
+                      Addressed class imbalance using SMOTE.
+                    </td>
+                    <td className="detailsHidden">
+                      Python, Pandas, Scikit-learn, XGBoost, SMOTE
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">TrackAI – AI Playing Trackmania</td>
+                    <td className="detailsHidden">
+                      Designed a reinforcement learning agent using CNNs and IQN
+                      to navigate the Trackmania racing game via image and
+                      sensor input.
+                    </td>
+                    <td className="detailsHidden">
+                      Python, TensorFlow, OpenAI Gym, CNN, IQN
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">E-Commerce Console Platform</td>
+                    <td className="detailsHidden">
+                      Built a Java-based console application simulating a
+                      shopping management system.
+                    </td>
+                    <td className="detailsHidden">
+                      Java, OOP, Console-based UI
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">Gamified Learning System</td>
+                    <td className="detailsHidden">
+                      A MERN stack platform where students earn points by
+                      completing quizzes, tests, and learning modules. Designed
+                      with principles of engagement psychology.
+                    </td>
+                    <td className="detailsHidden">
+                      React.js, Node.js, MongoDB, Express.js, Figma, UI/UX
+                      Design
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">Generative AI with StyleGAN</td>
+                    <td className="detailsHidden">
+                      Developed a model that synthesizes images using StyleGAN
+                      by extracting features from multiple source images.
+                      Included a visualization interface and evaluated output
+                      quality.
+                    </td>
+                    <td className="detailsHidden">
+                      Python, StyleGAN, GANs, Feature Extraction, GUI
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">
+                      Jotto Problem (Ongoing Research)
+                    </td>
+                    <td className="detailsHidden">
+                      A research-based word game solver utilizing scalable,
+                      graph-theoretic algorithms and statistical distribution
+                      analysis. Includes automated testing via Selenium.
+                    </td>
+                    <td className="detailsHidden">
+                      Graph Theory, Python, Flask, Selenium, Probability
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="namePrj">
+                      NLP-based E-Commerce Recommendation System
+                    </td>
+                    <td className="detailsHidden">
+                      Built a context-aware product recommendation engine using
+                      NLP techniques like DistilBERT and TF-IDF to understand
+                      user intent via natural language queries.
+                    </td>
+                    <td className="detailsHidden">
+                      Python, NLP, DistilBERT, TF-IDF, Semantic Search
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </div>
         </div>
-        <div className="compTwo exp">
+        <div className="compTwo exp" id="aboutp">
           <div className="type">
-            <h2>Experiences</h2>
+            <h2>Professional Experience & Leadership</h2>
             <p>
-              I have experience in various filled which have helped build by
-              tech & soft skills.
+              A mix of professional roles, freelance projects, and leadership
+              positions that enhanced my technical expertise and soft skills.
             </p>
+          </div>
+
+          <div className="desc">
+            {/* Professional Experience */}
+            <div className="container">
+              <div className="boxTwo">
+                <div className="detail">
+                  <h3>R&D Intern – Benciti Technologies Pvt. Ltd.</h3>
+                  <p>
+                    • Tested and evaluated the company’s e-learning platform
+                    Nudge (built in C++), identifying bugs and providing
+                    structured feedback to the development team.
+                    <br />
+                    • Collaborated with QA and product teams to enhance
+                    application accuracy and user experience before final
+                    release.
+                    <br />• Documented usability issues and improvement
+                    suggestions, contributing to product refinement.
+                  </p>
+                </div>
+                <p>Jun’24 – Jul’24</p>
+              </div>
+
+              <div className="boxTwo">
+                <div className="detail">
+                  <h3>Web Developer Intern – B.P. Alloys Limited</h3>
+                  <p>
+                    • Conducted on-site visits to gather requirements from
+                    stakeholders.
+                    <br />
+                    • Designed, developed and hosted a responsive corporate
+                    website using Figma and ReactJS.
+                    <br />• Managed the full project lifecycle independently,
+                    from concept to deployment.
+                  </p>
+                </div>
+                <p>Jun’24 – Jul’24</p>
+              </div>
+            </div>
+
+            <div className="container">
+              <div className="boxTwo">
+                <div className="detail">
+                  <h3>Freelance Web Developer – SubSaFT</h3>
+                  <p>
+                    • Designed and developed the official website for a startup
+                    using WordPress, HTML, CSS and Figma.
+                    <br />• Integrated plugins, implemented SEO optimizations,
+                    and created documentation for client handover.
+                  </p>
+                </div>
+                <p>Jul’24 – Aug’24</p>
+              </div>
+            </div>
+
+            {/* Leadership & Positions of Responsibility */}
+            <div className="container">
+              <div className="boxTwo">
+                <div className="detail">
+                  <h3>Conference Chair – STELMAR 2025</h3>
+                  <p>
+                    • Led BMU’s inaugural multidisciplinary research conference
+                    with 33+ delegates, 20+ jury members, keynote speakers,
+                    deans, and professors.
+                    <br />
+                    • Created and managed the conference budget, securing
+                    approvals and ensuring 100% plan execution.
+                    <br />
+                    • Partnered with Springer Nature’s Cureus Journal for
+                    academic collaboration and publications.
+                    <br />• Directed logistics, scheduling, stakeholder
+                    coordination, and on-site execution.
+                  </p>
+                </div>
+                <p>Feb’25 – Apr’25</p>
+              </div>
+
+              <div className="boxTwo">
+                <div className="detail">
+                  <h3>Web Master – BMU ACM Student Chapter</h3>
+                  <p>
+                    • Designed, deployed, and maintained the ACM Student Chapter
+                    website.
+                    <br />
+                    • Led tech team to deliver updates for 15+ major events.
+                    <br />• Organized workshops, mentored juniors, and directed
+                    the flagship 3-day annual event.
+                  </p>
+                </div>
+                <p>Aug’23 – Apr’25</p>
+              </div>
+            </div>
+
+            <div className="container">
+              <div className="boxTwo">
+                <div className="detail">
+                  <h3>Technical Lead – HackBMU</h3>
+                  <p>
+                    • Led technical team for the flagship hackathon with 150+
+                    developers nationwide.
+                    <br />
+                    • Oversaw website development, maintenance, and participant
+                    onboarding.
+                    <br />• Managed databases for check-ins and submissions,
+                    ensuring smooth event execution.
+                  </p>
+                </div>
+                <p>Feb’24 – Apr’24</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Achievements Section */}
+        <div className="compTwo achievements">
+          <div className="type">
+            <h2>Achievements</h2>
           </div>
           <div className="desc">
             <div className="container">
               <div className="boxTwo">
                 <div className="detail">
-                  <h3>LEAD&nbsp;DEVELOPER</h3>
+                  <h3>Best Paper Award – STELMAR 2025</h3>
                   <p>
-                    Developed official website of B.P. Alloys Limited from
-                    scratch. An internship which helped me grow.
+                    • Designed a scalable solver supporting 3–8 letter words
+                    (including duplicates) using graph-based feedback pruning,
+                    enhancing efficiency in combinatorial problem solving.
+                    <br />
+                    • Validated solver performance through extensive
+                    Selenium-based automated testing, ensuring reliability
+                    across varied datasets.
+                    <br />• Conducted statistical distribution analysis,
+                    identifying strong alignment with Beta, Exponential, and
+                    Exponpow models for predictive modeling insights.
                   </p>
                 </div>
-                <p>30&nbsp;days</p>
-              </div>
-              <div className="boxTwo">
-                <div className="detail">
-                  <h3>WEB&nbsp;MASTER</h3>
-                  <p>
-                    I am serving as the web master of ACMBMU Student Chapter,
-                    which is officially licensed by acm. During my span I have
-                    developed websites for ACMBMU.
-                  </p>
-                </div>
-                <p>2&nbsp;years</p>
-              </div>
-            </div>
-            <div className="container">
-              <div className="boxTwo">
-                <div className="detail">
-                  <h3>TECHNICAL&nbsp;LEAD</h3>
-                  <p>
-                    Lead the technical team of HACKBMU, a hackathon organised by
-                    ACMBMU.
-                  </p>
-                </div>
-                <p>2&nbsp;Months</p>
-              </div>
-              <div className="boxTwo">
-                <div className="detail">
-                  <h3>LEAD&nbsp;DEVELOPER</h3>
-                  <p>
-                    Developed website for Subsaft, a startup in middle east. A
-                    freelance work that helped me gain new insights.
-                  </p>
-                </div>
-                <p>10&nbsp;days</p>
+                <p>Apr’25</p>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Skills Section */}
+        <div className="compTwo skills" id="skillsp">
+          <div className="type">
+            <h2>Skills</h2>
+          </div>
+          <div className="desc skills-list">
+            <div className="skill-category">
+              <h3>Technical Skills</h3>
+              <p>
+                <strong>Proficient:</strong> Python, SQL, Git/GitHub, Excel,
+                Word, PowerPoint, Figma, React.js, MySQL, HTML, CSS, Canva, Data
+                Visualization
+                <br />
+                <strong>Familiar:</strong> MERN Stack, Power BI, Tableau,
+                Alteryx, Feature Engineering, SMOTE, AWS, DSA, Java, C++, R
+              </p>
+            </div>
+            <div className="skill-category">
+              <h3>Soft Skills</h3>
+              <p>
+                Communication, Teamwork, Leadership, Problem-Solving, Public
+                Speaking, Event Management, Analytical Thinking, Research &
+                Analysis
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="compTwo contact">
           <div className="type">
             <h2>Contacts</h2>
