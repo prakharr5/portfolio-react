@@ -51,6 +51,9 @@ function Hero() {
             <p>AI-Driven Web & App Development</p>
             <p>Scalable System Architecture & Complex Solutions</p>
             <p>Business-Centric Tech Innovation</p>
+            <a href="https://drive.google.com/file/d/1Fgncg_iYY9Mk_mAMlSl1t1OYiqrpHwDu/view?usp=sharing">
+              Download CV
+            </a>
           </div>
           <div className="lastDown">
             <div className="dOne">

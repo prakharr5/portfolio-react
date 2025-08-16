@@ -86,6 +86,14 @@
   font-weight: 300;
   font-size: 0.8rem;
 }
+.work a {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: darkgray;
+}
+.work a:hover {
+  text-decoration: underline;
+}
 .mid h4 {
   font-family: "Mr Dafoe", cursive;
   font-weight: 400;
