@@ -26,7 +26,7 @@ function Hero() {
             </div>
             <div className="reach">
               <a
-                href="https://drive.google.com/file/d/1Fgncg_iYY9Mk_mAMlSl1t1OYiqrpHwDu/view?usp=sharing"
+                href="https://drive.google.com/file/d/1IgK7sL_0gHC3K8f4xGOXhT6T3O0TH7Lm/view?usp=sharing"
                 className="downcv"
               >
                 Download CV
@@ -51,7 +51,7 @@ function Hero() {
             <p>AI-Driven Web & App Development</p>
             <p>Scalable System Architecture & Complex Solutions</p>
             <p>Business-Centric Tech Innovation</p>
-            <a href="https://drive.google.com/file/d/1Fgncg_iYY9Mk_mAMlSl1t1OYiqrpHwDu/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1IgK7sL_0gHC3K8f4xGOXhT6T3O0TH7Lm/view?usp=sharing">
               Download CV
             </a>
           </div>
