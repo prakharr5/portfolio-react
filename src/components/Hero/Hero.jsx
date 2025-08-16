@@ -26,7 +26,7 @@ function Hero() {
             </div>
             <div className="reach">
               <a
-                href="https://drive.google.com/file/d/1_gB08vIdK8UiP65tSujblKMsSce53UMt/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Fgncg_iYY9Mk_mAMlSl1t1OYiqrpHwDu/view?usp=sharing"
                 className="downcv"
               >
                 Download CV
